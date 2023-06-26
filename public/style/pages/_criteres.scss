@@ -1,0 +1,96 @@
+.pageCriteres {
+  font-family: 'Roboto Condensed', sans-serif;
+
+  position: relative;
+
+  .retour_admin{
+    display: block;
+    transform: translateX(3%);
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #333;
+    background-color: #055d76;
+    a {
+      color: #f1f1f1;
+      font-weight: bold;
+    }
+
+    &:hover{
+      background-color: #2095b6;
+      transition: all 0.2s;
+    }
+
+
+  }
+
+  table {
+    width: 90%;
+    margin: 20px auto 30px;
+  }
+
+  table,
+  tr,
+  th,
+  td {
+    border: 1px solid #333;
+  }
+  tr {
+    th{
+    
+      padding: 10px 0;
+    }
+    td {
+      padding: 5px 0;
+      text-align: center;
+
+      &:nth-child(1) {
+        text-align: left;
+        padding-left: 3vw;
+      }
+    }
+
+    .supprimer {
+      padding: 5px 15px;
+      background-color: crimson;
+      color: #f1f1f1;
+      border-radius: 5px;
+    }
+    .modifier {
+      padding: 5px 15px;
+      background-color: rgb(0, 40, 77);
+      color: #f1f1f1;
+      border-radius: 5px;
+      i{
+      
+        color: #f1f1f1;
+      }
+    }
+    .validerModif {
+      padding: 5px 15px;
+      background-color: #055d76;
+      color: #f1f1f1;
+      border-radius: 5px;
+    }
+  }
+  .raccourci_creation {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto 100px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #333;
+    background-color: #055d76;
+    a {
+      color: #f1f1f1;
+      font-weight: bold;
+    }
+
+    &:hover{
+      background-color: #2095b6;
+      transform: translateY(2px);
+
+      box-shadow: 2px 0px 2px #333;
+      transition: all 0.2s;
+    }
+  }
+}

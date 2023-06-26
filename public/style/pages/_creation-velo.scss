@@ -1,0 +1,52 @@
+.pageCreationVelo {
+  width: 94%;
+  margin: 10px auto;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  .creation-velo-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 600px;
+  }
+
+  label {
+    font-size: clamp(16px, calc(14px + 0.6vw), 22px);
+    letter-spacing: calc(1px + 0.02vw);
+    margin: 5px 0px;
+  }
+  select,
+  input,
+  textarea {
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .radio-form {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+    label {
+      width: 100px;
+
+      &:first-child {
+        width: 150px;
+      }
+
+    }
+    input {
+      margin: 0;
+      margin-right: 10px;
+    }
+  }
+}
+
+.btnGris{
+  background-color: #c4c4c4;
+  cursor: none;
+  pointer-events: none;
+  color :  "333"
+}

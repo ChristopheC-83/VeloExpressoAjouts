@@ -1,0 +1,28 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 3px);
+  background: linear-gradient(
+    0deg,
+    #055D76 0%,
+    #0bbbec 50%,
+    #055D76 100%
+  );
+  color: #333;
+  text-shadow: 1px 1px 1px c4c4c4;
+  width: 100%;
+  // height: 30px;
+  @include flexMid;
+  z-index: 20;
+  font-family: Kaushan script;
+  font-size: clamp(16px, calc(14px + 0.8vw), 24px);
+  letter-spacing: calc(1px + 0.02vw);
+  padding: 10px;
+  a {
+    color: #333;
+  }
+  .panneauAdmin{
+    cursor: none;
+  }
+}

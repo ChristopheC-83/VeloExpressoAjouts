@@ -1,0 +1,18 @@
+.pageMecanique {
+  margin: 0 auto;
+  
+  .enteteMeca {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0px auto;
+    }
+
+}
+.lastMeca{
+    margin-bottom: 100px;
+}
+}
